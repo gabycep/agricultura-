@@ -8,6 +8,10 @@ header{
 
 }
 
-.menu{
+.introducao{
+    margin: 0 30px;
+}
 
+.titulo{
+    text-align: center;
 }
