@@ -22,6 +22,17 @@ header{
     margin: 0 30px;
 }
 
+#menu{
+    display: none;
+}
+.lista{
+    display: none;
+}
+
+.menuzin:checked ~ .lista{
+    display: block;
+}
+
 @media screen and (min-width: 1024px) {
     /*Estilo para tabletes */
     .estacoes{
