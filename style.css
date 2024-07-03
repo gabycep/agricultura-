@@ -28,4 +28,17 @@ header{
         display: grid;
         grid-template-columns: 50% 50%;
     }
+    .primeira{
+        padding-left: 20px;
+    }
+    .segunda{
+        padding-right: 20px;
+    }
+    .terceira{
+        padding-left: 20px;
+    }
+    .quarta{
+        padding-right: 20px;
+    }
+    
 }
