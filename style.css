@@ -28,10 +28,18 @@ position: relative;
 .lista{
     display: none;
     position: absolute;
+    left: 0;
 }
 
+ul li{
+    list-style: none;
+}
 .menuzin:checked ~ .lista{
     display: block;
+}
+a{
+    color: black;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1024px) {
