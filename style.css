@@ -17,8 +17,15 @@ header{
 }
 
 
+.estacoes{
+    text-align: center;
+    margin: 0 30px;
+}
 
-
-media screen and (min-whidth: 1024px) {
+@media screen and (min-whidth: 1024px) {
     /*Estilo para tabletes */
+    .estacoes{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 }
