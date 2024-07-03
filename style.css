@@ -22,7 +22,7 @@ header{
     margin: 0 30px;
 }
 
-@media screen and (min-whidth: 1024px) {
+@media screen and (min-width: 1024px) {
     /*Estilo para tabletes */
     .estacoes{
         display: grid;
